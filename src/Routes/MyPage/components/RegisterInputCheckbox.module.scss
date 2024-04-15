@@ -1,0 +1,40 @@
+@import '../../../reset.scss';
+
+.checkbox {
+  display: flex;
+  position: relative;
+  height: 12px;
+  width: 12px;
+
+  input {
+    -webkit-appearance: none;
+    position: relative;
+    z-index: 1;
+    &::after {
+      display: block;
+      content: '';
+      width: 12px;
+      height: 12px;
+      border: 1px solid $search-color;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    &:checked::after {
+      position: absolute;
+      z-index: 10;
+      border: 1px solid $highlight-color;
+      background: url('../img/checked.svg');
+    }
+  }
+  label {
+    p {
+      position: relative;
+      top: 0;
+      left: 22px;
+      font-size: $footer-menu-size;
+      color: $search-color;
+      cursor: pointer;
+    }
+  }
+}

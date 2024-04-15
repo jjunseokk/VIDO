@@ -1,0 +1,28 @@
+@import '../../../reset.scss';
+
+.DashboardSingleArt {
+  display: flex;
+  height: 32px;
+  > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  > div {
+    margin-left: 8px;
+    > p {
+      color: #707070;
+      font-family: $font-kor;
+      &:nth-of-type(1) {
+        font-weight: $medium;
+        font-size: 10px;
+        margin-bottom: 4px;
+      }
+      &:nth-of-type(2) {
+        font-weight: $regular;
+        font-size: 10px;
+      }
+    }
+  }
+}

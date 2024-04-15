@@ -1,0 +1,22 @@
+[
+  {
+    "menu": "mypage.info.title",
+    "link": "/MyPage",
+    "notification": 0
+  },
+  {
+    "menu": "mypage.media_art.title",
+    "link": "/MyPage/MyArt",
+    "notification": 0
+  },
+  {
+    "menu": "mypage.dashboard.title",
+    "link": "/MyPage/DashBoard",
+    "notification": 0
+  },
+  {
+    "menu": "mypage.refund.title",
+    "link": "/MyPage/Payment",
+    "notification": 0
+  }
+]

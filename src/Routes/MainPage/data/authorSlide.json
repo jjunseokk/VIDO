@@ -1,0 +1,90 @@
+[
+  {
+    "src": "/img/slide/BHAK.webp",
+    "icon": "/img/slide/BHAK-icon.webp",
+    "mask": false,
+    "bottom": 100,
+    "link": "https://galeriebhak.com/",
+    "color": "#0A3243",
+    "linkColor": "#363636",
+    "title": ["Gallery", "BHAK 합류"],
+    "txt": ["Gallery BHAK이 소유한 명작들을", "VIDO에서 감상하실 수 있습니다"]
+  },
+  {
+    "src": "/img/slide/RyuJaechoon.webp",
+    "mask": true,
+    "bottom": 164,
+    "color": "#ffffff",
+    "link": "https://ryujaechun.com/",
+    "title": ["자연 수묵화의 대가"],
+    "txt": ["류재춘 화백의 명화를 VIDO에서 감상해 보세요"]
+  },
+  {
+    "src": "/img/slide/Wilson.webp",
+    "mask": false,
+    "bottom": 134,
+    "link": "https://www.instagram.com/friend_wilson/",
+    "color": "#ffffff",
+    "title": ["3D 그래픽 아티스트", "이상혁 합류"],
+    "txt": ["근미래에 신호로만 소통하고 교류하게 된 시대의 이야기"]
+  },
+  {
+    "src": "/img/slide/KimJeehyun.webp",
+    "mask": true,
+    "bottom": 140,
+    "color": "#ffffff",
+
+    "link": "https://linktr.ee/happyjeehyun",
+    "title": ["작가 김지현 합류"],
+    "txt": [
+      "마음이 따뜻해지고 자연스레 미소가 지어지는",
+      "김지현 작가의 작품을 VIDO에서 만나보세요"
+    ]
+  },
+  {
+    "src": "/img/slide/reginaKim.webp",
+    "mask": true,
+    "bottom": 140,
+    "color": "#ffffff",
+
+    "link": "https://solo.to/reginakim",
+    "title": ["작가 레지나킴 합류"],
+    "txt": [
+      "이미지의 경계를 지우고, 허물어, 새로운 중첩과 재배열 작업을",
+      "통해 신비로운 세계를 조각하는 아티스트"
+    ]
+  },
+  {
+    "src": "/img/slide/rokkanKim.webp",
+    "mask": true,
+    "bottom": 134,
+    "color": "#ffffff",
+
+    "link": "https://linktr.ee/rokkankim",
+    "title": ["작가 로칸킴 합류"],
+    "txt": [
+      "1960.70년대 미국문화와 오늘날의 사회 현상을",
+      "영상과 꼴라주로 재해석"
+    ]
+  },
+  {
+    "src": "/img/slide/nakta.webp",
+    "link": "https://www.instagram.com/naktaaaa_/",
+    "title": ["그래픽 아티스트 NAKTA"],
+    "color": "#ffffff",
+    "bottom": 164,
+    "txt": [
+      "디지털 콜라주기법을 기반으로 영상 속 다양한 상상의 셰계를 표현하는 아티스트"
+    ]
+  },
+  {
+    "src": "/img/slide/guam.webp",
+    "link": "https://www.minjeong.net/",
+    "title": ["Guem Min Jeong"],
+    "color": "#ffffff",
+    "bottom": 164,
+    "txt": ["미디어 아티스트 금민정"],
+    "txtShadow": "0px 3px 6px #2b2b2b",
+    "titleShadow": "0px 3px 6px #2b2b2b"
+  }
+]

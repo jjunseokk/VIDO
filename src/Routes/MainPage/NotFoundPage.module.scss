@@ -1,0 +1,73 @@
+@import '../../reset.scss';
+.NotFoundPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  > section {
+    &:nth-of-type(1) {
+      > h1 {
+        text-align: center;
+        color: $highlight-color;
+        font: $light 120px/160px $font-eng;
+        margin-top: 200px;
+      }
+      > p {
+        text-align: center;
+        color: $highlight-color;
+        font: $regular 24px/32px $font-eng;
+        margin-bottom: 25px;
+      }
+      > div {
+        height: 1px;
+        width: 476px;
+        margin: 0 auto;
+        background-color: $highlight-color;
+        margin-bottom: 34px;
+      }
+    }
+    &:nth-of-type(2) {
+      > h2 {
+        text-align: center;
+        font: $medium 40px $font-kor;
+        margin-bottom: 32px;
+      }
+      > p {
+        font: $regular 20px/32px $font-kor;
+        color: #151515;
+        display: block;
+        margin: 0 auto;
+        width: 480px;
+      }
+    }
+  }
+  > div {
+    margin: 0 auto;
+    margin-top: 76px;
+    width: fit-content;
+    > embed {
+      height: 23px;
+      width: auto;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 12px;
+    }
+    > button {
+      display: block;
+      width: 160px;
+      height: 36px;
+      border: 1px solid $highlight-color;
+      background-color: #fff;
+      color: $highlight-color;
+      font: $medium 18px $font-kor;
+      cursor: pointer;
+      transition: all 0.2s;
+      &:hover {
+        color: #fff;
+        background-color: $highlight-color;
+      }
+    }
+  }
+}

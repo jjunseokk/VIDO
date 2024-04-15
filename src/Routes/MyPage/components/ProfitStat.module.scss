@@ -1,0 +1,30 @@
+@import '../../../reset.scss';
+.ProfitStat {
+  display: flex;
+  padding: 0;
+  width: calc(100vw - $left - $right - 310px);
+  height: 646px;
+  overflow: hidden;
+  > div {
+    position: relative;
+    height: 100%;
+    &.left {
+      border-right: 1px solid $border-color;
+      width: 400px;
+      > div {
+        > div {
+          p {
+            &:first-of-type {
+              font-size: 14px;
+              color: #707070;
+              font-family: $font-kor;
+              font-weight: $medium;
+            }
+            &:nth-of-type(2) {
+            }
+          }
+        }
+      }
+    }
+  }
+}

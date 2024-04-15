@@ -1,0 +1,656 @@
+{
+  "about": {
+    "affiliate": "VIDO 파트너사",
+    "more_introduction" : "다양한 미디어아트 서비스를 VIDO 구독으로 해결하세요.",
+    "show_more" : "더 알아보기",
+    "content1": "국내 최대 미디어아트 OTT 플랫폼<br />VIDO에서는 <0>미디어아트</0>를<br /><0>구독</0>하고, <0>전시</0>할 수 있습니다.",
+    "content2": {
+      "item1": {
+        "comment": "미디어아트의 재생횟수, 시간, 누적 플레이 횟수, 캔버스 사이즈 등을\n바탕으로 자동화 된 알고리즘을 통해 아티스트들의 미디어아트\n사용에 대한 정당한 사용료를 제공",
+        "description": "전국 다양한 캔버스(전광판)에 재생된\n누적 횟수를 기반으로 매달 수익 창출",
+        "title": "미디어아트 재생 수익 창출"
+      },
+      "item2": {
+        "comment": "선정된 미디어 아티스트를 통해 데이터 레포트, SNS 작가 및 작품 홍보 진행\n다양한 프로젝트를 통해 작품 활용 및 홍보",
+        "description": "홈페이지 및 매달 캔버스 소유주에게 제공되는 레포트 등을 통한 미디어 아티스트 홍보",
+        "title": "홍보 마케팅 기회 부여"
+      },
+      "item3": {
+        "comment": "일반 회화 작품을 미디어아트로 제작함으로써 작품을 다양한 시각으로\n감상하도록 도와주며 미디어아트의 무한한 가능성을 확인",
+        "description": "일반 회화 작품을 기반으로 2차 저작물로써\n미디어아트 제작",
+        "title": "회화 작품의 미디어아트\n작품으로 재탄생"
+      },
+      "manual": "아티스트 메뉴얼",
+      "submit": "아티스트 등록하기",
+      "title": "지금 VIDO <0>미디어아티스트</0>가<br />된다면",
+      "subscribe" : "플랫폼 구독 문의"
+    },
+    "content3": {
+      "item1": {
+        "comment": "* 아티스트별, 카테고리별, 에디터 추전 등을 통해\n원하는 재생 목록 설정",
+        "description": "캔버스(전광판) 사이즈에 따라\n효율적인 구독서비스를 이용하여\n다양한 미디어아트를\n전시할 수 있습니다.",
+        "title": "다양한\n미디어아트를 전시"
+      },
+      "item2": {
+        "description": "캔버스에서 재생된\n미디어아트들에 대한 데이터와\n큐레이팅을 통한 미디어아트와\n아티스트의 트렌드에 대한 월간 레포트를\n제공합니다.",
+        "title": "미디어아트의 트렌드를\n알 수 있는 레포트 제공"
+      },
+      "item3": {
+        "description": "전문가들을 통해 공간의 용도,\n규모, 캔버스의 크기, 브랜드\n아이덴티티에 따라 이에 맞는\n아트 컨설팅을 진행해드립니다.",
+        "title": "공간에 맞는\n아트 컨설팅"
+      },
+      "submit": "콜렉터 혜택받기",
+      "title": "VIDO <0>콜렉터</0>가<br />되어주세요!"
+    },
+    "VIDO_ARTIST" : {
+      "step_1" : "작품 업로드",
+      "step_2" : "미디어 캔버스 매칭",
+      "step_3" : "작품 전시",
+      "step_4" : "수익 창출"
+    },
+    "VIDO_COLLECTOR" : {
+      "step_1" : "플랫폼 구독",
+      "step_2" : "작품 선택",
+      "step_3" : "작품 전시"
+    }
+  },
+  "author": {
+    "all": {
+      "search": "아티스트를 검색해보세요",
+      "sort": {
+        "name": "이름순",
+        "new": "최신순"
+      },
+      "title": "아티스트 목록"
+    },
+    "detail": {
+      "more": "더보기",
+      "total": "총 미디어아트 수 <0>{{value}} 개</0>"
+    },
+    "recommend": "추천 아티스트"
+  },
+  "banner": {
+    "guide": "VIDO 가이드",
+    "more": "더 알아보기",
+    "news": "VIDO 소식"
+  },
+  "collector": {
+    "address": "주 소",
+    "collector": "콜렉터",
+    "description": "미디어아트 구독 서비스 뿐만 아니라, 미디어아트를 활용한 각종 이벤트,\n그리고 미디어아트 캠페인까지. 오직 VIDO에서만 누릴 수 있는 다양한\n미디어아트 서비스를 경험해보세요.",
+    "keyword": "키워드",
+    "manual_video": "클라이언트 구동영상",
+    "ratio": "비 율",
+    "resolution": "해상도",
+    "size": "크기",
+    "title": "다양한 미디어아트 서비스,\nVIDO로 통합하다.",
+    "subscribe" : "구독 문의",
+    "subscribe_introduction" : "VIDO 구독으로 다양한 미디어아트 혜택을 받아보세요.",
+    "collect_gallery": [
+      {
+        "src": "/img/Subscribe_MediaArt.mp4",
+        "title": "1. 미디어아트 구독",
+        "sub_title": [
+          "다양한 작가의 작품을",
+          "무제한으로 감상."
+        ],
+        "txt": [
+          "국내외 유명 미디어아티스트의 작품을 감상하고 전시할 수 있는 구독 서비스입니다.",
+          "원하는 작품을 선택하고 소유중인 디스플레이에 전시해보세요."
+        ],
+        "collectBox": [
+          "OTT",
+          "SERVICE"
+        ]
+      },
+      {
+        "src": "/img/MediaArt_Event.mp4",
+        "title": "2. 미디어아트 이벤트",
+        "sub_title": [
+          "미디어아트를 활용하여",
+          "팝업과 페스티벌의 흥미 극대화."
+        ],
+        "txt": [
+          "VIDO의 미디어아트와 함께 전시,행사,페스티벌 등 다양한 이벤트의 분위기를",
+          "다채롭게 연출해보세요."
+        ],
+        "collectBox": [
+          "MEDIA ART",
+          "EVENT"
+        ]
+      },
+      {
+        "src": "/img/MediaArt_Campaign.mp4",
+        "title": "3. 미디어아트 캠페인",
+        "sub_title": [
+          "다양한 미디어아트를 통해",
+          "브랜드 마케팅과 캠페인을."
+        ],
+        "txt": [
+          "브랜드 아이덴티티에 맞는 미디어아트 캠페인으로 브랜드 마케팅을",
+          "진행해보세요."
+        ],
+        "collectBox": [
+          "MEDIA ART",
+          "CAMPAIGN"
+        ]
+      }
+    ]
+  },
+  "common": {
+    "cancel": "취소",
+    "done": "확인",
+    "email": "이메일",
+    "id": "아이디",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "name": "이름",
+    "nickname": "닉네임",
+    "num": "번호",
+    "number": "휴대폰 번호",
+    "save": "저장",
+    "signup": "회원가입"
+  },
+  "find": {
+    "email": {
+      "hint": "이메일 입력",
+      "submit": "인증",
+      "verify": {
+        "check": "확인",
+        "hint": "인증번호 입력"
+      }
+    },
+    "id": "아이디 입력",
+    "name": "이름 입력",
+    "submit": "다음",
+    "title": "비밀번호 찾기",
+    "title_id": "아이디 찾기"
+  },
+  "footer": {
+    "about": "회사소개",
+    "company": {
+      "CEO": "대표이사: 심상훈",
+      "address": "서울시 강남구 논현로 151번길 50 301호(신사동)",
+      "name": "상호: 베스트오퍼 주식회사",
+      "number": "02 512 0991",
+      "privacy": "개인정보처리관리: 백경인"
+    },
+    "contact": "제휴문의",
+    "privacy": "개인정보처리방침",
+    "service_center": "고객센터",
+    "service_contact": "서비스 이용문의",
+    "terms": "이용약관"
+  },
+  "found": {
+    "description": "*로그인후 필히 비밀번호를 변경해주세요!",
+    "submit": "로그인 하기",
+    "temp": "임시 비밀번호는 <br /><0>{{value}}</0> 입니다.",
+    "title": "회원님의 아이디는 <br /><0>{{value}}</0> 입니다."
+  },
+  "header": {
+    "about": "VIDO 소개",
+    "author": "아티스트",
+    "collector": "콜렉터",
+    "media_art": "미디어아트",
+    "mode_dark": "다크모드",
+    "mode_light": "라이트모드",
+    "menu": {
+      "dashboard": "대시보드",
+      "info": "내 정보 관리",
+      "media_art": "내 미디어아트 관리",
+      "refund": "수익금 출금"
+    },
+    "monthly_report": "월간 레포트",
+    "mypage": "마이페이지",
+    "search": "검색어를 입력해주세요."
+  },
+  "login": {
+    "id_input": "아이디 입력",
+    "login_failed": "아이디 또는 비밀번호가 일치하지 않습니다.",
+    "login_removed": "탈퇴한 회원입니다.",
+    "password_find": "비밀번호 찾기",
+    "pw_input": "비밀번호 입력",
+    "save": "아이디 저장"
+  },
+  "main": {
+    "canvas_gallery": "VIDO와 함께하는\n 미디어 캔버스",
+    "new": {
+      "art": "신규 미디어아트",
+      "author": "신규 아티스트"
+    },
+    "top10": {
+      "title": "VIDO TOP10",
+      "sub_title": "이번달 VIDO에서 가장 많이 보는 미디어아트"
+    },
+    "popular": {
+      "title": "인기 급상승 미디어아트"
+    },
+    "spotlight": {
+      "title": "주목받는 아티스트"
+    }
+  },
+  "media_art": {
+    "all": {
+      "order": {
+        "new": "최신순",
+        "top": "인기순"
+      },
+      "search": "미디어아트를 검색해보세요",
+      "title": "미디어아트 목록"
+    },
+    "detail": {
+      "running_time": "러닝타임",
+      "same": "작가의 다른 작품들",
+      "similar": "비슷한 느낌의 작품들"
+    },
+    "editor_pick": "Editor's Pick",
+    "more": "더보기",
+    "recommend": "추천 미디어아트",
+    "tag": {
+      "genre": "장르",
+      "mood": "무드",
+      "title": "태그별 미디어아트"
+    }
+  },
+  "mypage": {
+    "dashboard": {
+      "no_data": "항목이 존재하지 않습니다.",
+      "art_analysis": {
+        "art": "작품별",
+        "count": {
+          "approved": "승인완료",
+          "ing": "승인전",
+          "reject": "미승인",
+          "total": "작품 개수"
+        },
+        "date": "업로드 날짜",
+        "location": "장소별",
+        "media_art": "미디어아트",
+        "num": "작품번호",
+        "play_count": "작품 플레이 횟수",
+        "play_count_unit": "(회)",
+        "play_time": "작품 플레이 시간",
+        "play_time_unit": "(분)",
+        "recent": "최근 업로드 작품",
+        "title": "작품분석",
+        "upload_or_approve": "업로드 및 승인",
+        "views": "작품별 조회수",
+        "download": "작품별 다운로드 수"
+      },
+      "summary": {
+        "art_analysis": {
+          "upload": "업로드 수",
+          "views": "조회수",
+          "download": "다운로드 수",
+          "summary_unit": "전체의",
+          "art_analysis_unit": "전체",
+          "art_analysis_chart": {
+            "my_upload": "나의 업로드 수",
+            "all_upload": "전체 업로드 수",
+            "my_views": "나의 조회수",
+            "all_views": "전체 조회수",
+            "my_download": "나의 다운로드 수",
+            "all_download": "전체 다운로드 수"
+          }
+        },
+        "revenue_analysis": {
+          "lowest_return": "최저 수익",
+          "highest_return": "최고 수익",
+          "average_return": "평균 수익",
+          "return_unit": "(월)",
+          "all_average_multiple": "전체 평균의",
+          "multiply": "배",
+          "revenue_analysis_chart": {
+            "all_average": "전체 평균",
+            "my_revenue": "나의 수익"
+          }
+        },
+        "title": "요약",
+        "last": "지난",
+        "contrast": "대비"
+      },
+      "revenue_analysis": {
+        "title": "수익분석",
+        "art_revenue": "작품별 수익",
+        "top_revenue": "수익률 최상위 작품",
+        "art_revenue_table": {
+          "art_num": "작품번호",
+          "art_name": "작품명",
+          "upload_date": "업로드 날짜",
+          "revenue": "수익"
+        },
+        "etc": "그 외"
+      },
+      "date": {
+        "3month": "최근 3개월",
+        "6month": "최근 6개월",
+        "all": "전체기간",
+        "custom": "사용자 설정",
+        "month": "월",
+        "year": "년"
+      },
+      "title": "대시보드"
+    },
+    "info": {
+      "change": {
+        "change": "변경하기",
+        "check": "중복확인",
+        "close": "확인",
+        "description": "작가 설명",
+        "description_hint": "작가 소개를 입력해주세요.(200자 이내)",
+        "link": {
+          "add": "링크추가",
+          "err": "올바른 형식의 링크를 입력해주세요.",
+          "input_hint": "URL 입력",
+          "select": "선택하기",
+          "select_hint": "링크 종류를 선택해 주세요.",
+          "title": "링크"
+        },
+        "marketing": "정보 수신 동의",
+        "title": "기본정보 변경"
+      },
+      "change_pw": {
+        "change_password": "변경 비밀번호",
+        "change_password_confirm": "변경 비밀번호 확인",
+        "password": "현재 비밀번호",
+        "title": "비밀번호 변경",
+        "valid": {
+          "done": "비밀번호가 변경되었습니다. 다시 로그인 해주세요.",
+          "no_same": "비밀번호가 일치하지 않습니다.",
+          "regex": "8~20자 사이, 괄호, 따옴표를 제외한 특수문자를 포함해야합니다.",
+          "wrong": "틀린 비밀번호 입니다."
+        }
+      },
+      "title": "내 정보 관리"
+    },
+    "media_art": {
+      "approved": "승인완료",
+      "count": "조회수",
+      "crop": {
+        "canvas": "등록된 캔버스",
+        "message": {
+          "canvas": "미디어 캔버스를 선택해 주세요.",
+          "crop1": "영상을 크롭 중 입니다.",
+          "crop2": "새로 고침 또는 페이지 이동을 하지 말아주세요.",
+          "crop_done": "크롭이 완료되었습니다. 완료된 크롭은 내 미디어 관리의 미디어아트 크롭 관리에서 확인 가능합니다.",
+          "duplicate": "이미 존재하는 크롭 입니다.",
+          "scale": "영상 확대 배율이 2배가 넘어갑니다. 진행하시겠습니까?",
+          "video": "영상을 업로드 해 주세요."
+        },
+        "preview": "미리보기",
+        "request": "요청비율",
+        "resolution": "캔버스 해상도",
+        "upload": "새로 업로드",
+        "upload_description": "선택한 비율의 해상도를 새로 업로드합니다."
+      },
+      "crop_btn": "크롭",
+      "crop_control": {
+        "all": "전체보기",
+        "date": "등록일자",
+        "resolution": "해상도",
+        "title": "크롭 작품 관리"
+      },
+      "down": "다운로드 수",
+      "edit": "수정",
+      "ing": "승인대기",
+      "is_approved": "승인여부",
+      "refund": "총수익",
+      "reject": "미승인",
+      "reject_reason": "반려 사유",
+      "request": "업체요청",
+      "thumbnail": "썸네일",
+      "title": "내 미디어아트 관리",
+      "title_description": "제목 / 설명",
+      "upload": {
+        "description_hint": "미디어아트 설명 입력",
+        "genre": {
+          "description": "(*2항목 필수 설정)",
+          "title": "장르 설정"
+        },
+        "group_name": "협회명",
+        "img_error": "잘못되 이미지입니다.",
+        "mockup": {
+          "big": "대공간",
+          "description": "나의 미디어아트를 돋보이게 할 목업이미지를 골라 비율에 맞춰 업로드해주세요 (복수 업로드 가능)",
+          "horizontal": "가로형",
+          "small": "소공간",
+          "title": "작품 목업 이미지 설정",
+          "vertical": "세로형"
+        },
+        "mood": {
+          "description": " (*최소 2개 최대5개까지 설정가능)",
+          "title": "무드 설정"
+        },
+        "nickname": "작가명",
+        "preview": "미디어아트 미리보기 이미지 설정",
+        "preview_description": "(*600x400의 이미지를 올려주세요)",
+        "title": "미디어아트 업로드",
+        "title_hint": "미디어아트 제목 입력",
+        "upload_description": "10초 이상의\nH.264 또는 H.265코덱의 영상을 올려주세요.",
+        "upload_notice": "*업로드한 미디어아트는 서비스를 이용하는 전광판 해상도에 따라 일부분이 잘리거나 비율 및 사이즈가 변경될 수 있습니다."
+      }
+    },
+    "profile": {
+      "img_hint": "300x300px의 이미지를 업로드 해주세요."
+    },
+    "refund": {
+      "account": "지금정보(계좌)",
+      "account_hint": "계좌번호 입력( ‘-‘ 없이 숫자만 입력해 주세요. )",
+      "name_hint": "예금주 입력",
+      "detail": "상세보기",
+      "history": {
+        "amount": "출금금액",
+        "amount_unit": "(단위: 원)",
+        "date": "출금일자",
+        "num": "차수",
+        "request_date": "신청일자",
+        "title": "출금내역",
+        "status" : "상태"
+      },
+      "message": {
+        "amount1": "1,000원 단위의 정확한 금액을 입력해주세요.",
+        "amount2": "출금가능 수익 이하의 금액만 입력 가능합니다.",
+        "register_done": "계좌가 등록되었습니다.",
+        "request_description": "요청하신 금액은 요청날짜 기준으로 7일이내에 입금됩니다.<br />고객센터 (02-512-0982)",
+        "request_done": "출금요청이 완료되었습니다.",
+        "yet": "아직 처리되지 않은 출금요청이 있습니다."
+      },
+      "month": "월",
+      "month_receipt": "월간명세서",
+      "pdf": {
+        "address": "서울특별시 강남구 신사동 543-9, 3층",
+        "address_title": "주소",
+        "art_title": "작품명",
+        "business_number": "사업자등록번호",
+        "compnay": "벌스 주식회사",
+        "compnay_title": "상호명(법인명)",
+        "date": "발급일자",
+        "description1": "*회사는 개인정보를 '개인정보처리방침'에서 고지한 범위 내에서 사용하며, 정보주체의 사전 동의 없이는 이용하거나 원칙적으로 개인정보를 외부에 공개하지 않습니다.",
+        "description2": "\"재생수익은 VIDO 홈페이지내 마이페이지에서 확인 및 출금할 수 있습니다.\"",
+        "description3": "vido.gallery > 로그인 > 마이페이지 > 수익금 출금",
+        "for": "[<0>{{value}}</0>]귀하 아래와 같이 공급합니다.",
+        "revenue": "재생수익",
+        "save": "PDF로 저장하기",
+        "supplier": "공급자",
+        "tax": "원천세",
+        "title": "월 수익내역서",
+        "total": "합계",
+        "wait": "기다려 주세요."
+      },
+      "receipt": "내역보기",
+      "receipt_art": "재생 수익 작품",
+      "receipt_date": "발급일자",
+      "receipt_total": "합계 금액",
+      "register": "등록",
+      "request": "출금요청",
+      "request_amount": "출금요청금액",
+      "request_hint": "10,000원 이상부터 1,000원 단위로 입력 가능합니다.",
+      "select": "선택",
+      "title": "출금가능 수익",
+      "total_amount": "누적출금금액",
+      "year": "년"
+    }
+  },
+  "report": {
+    "close": "접기",
+    "month": "월",
+    "month_list": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "monthly_report": "월간레포트",
+    "more": "더보기",
+    "show_all": "전체보기",
+    "year": "년 "
+  },
+  "search": {
+    "artist": "아티스트",
+    "media_art": "미디어아트",
+    "no_result": "<0>'{{value}}'</0>에 대한 검색결과가 없습니다.",
+    "no_result_description": "검색어를 다시한번 확인해주세요",
+    "show_all": "전체보기",
+    "title": "검색결과"
+  },
+  "service": {
+    "faq": {
+      "account": "회원가입 및 정보수정",
+      "all": "전체",
+      "artist": "아티스트",
+      "category": "카테고리",
+      "collector": "캔버스 콜렉터",
+      "content_title": "제목",
+      "hint": "질문을 검색해 보세요.",
+      "service": "서비스",
+      "title": "FAQ"
+    },
+    "inquiry": {
+      "category": {
+        "account": "회원가입 및 정보 수정",
+        "artist": "아티스트 관련",
+        "collector": "캔버스 콜렉터 관련",
+        "etc": "기타",
+        "service": "서비스 관련"
+      },
+      "history": {
+        "answered": "답변완료",
+        "category": "카테고리",
+        "content_title": "제목",
+        "ing": "진행중",
+        "is_answer": "답변여부",
+        "title": "내 문의 내역"
+      },
+      "popup": {
+        "title": "로그인이 필요한페이지 입니다."
+      },
+      "send": {
+        "close": "확인",
+        "description_hint": "문의 내용을 입력해주세요.",
+        "done": "문의가 등록되었습니다.",
+        "submit": "문의하기",
+        "title": "1:1 문의하기",
+        "title_hint": "제목을 입력해주세요."
+      },
+      "title": "1:1문의"
+    },
+    "notice": {
+      "content_title": "제목",
+      "date": "등록일",
+      "title": "공지사항"
+    },
+    "title": "고객센터"
+  },
+  "signup": {
+    "all": "전체 동의",
+    "all_comment": "(선택)사항을 포함하여 모두 동의합니다.",
+    "done": {
+      "description": "VIDO 회원가입이 완료되었습니다.",
+      "submit": "로그인하기",
+      "title": "가입완료",
+      "welcome": "님 환영합니다!"
+    },
+    "group": "단체",
+    "group_signup": "미디어아트<br />협회",
+    "info": "정보입력",
+    "input": {
+      "done": "가입 완료",
+      "email": {
+        "alert": "메인 인증 요청은 3번까지 가능합니다.",
+        "left": "인증 남은 시간",
+        "retry": "재전송",
+        "self": "직접입력",
+        "submit": "인증",
+        "valid": {
+          "check": "사용 할 수 있는 이메일입니다.",
+          "duplicate": "이미 존재하는 이메일입니다.",
+          "no_check": "중복확인을 해주세요.",
+          "regex": "올바른 이메일 형식을 입력해주세요."
+        },
+        "verify": {
+          "confirm": "확인",
+          "failed": "인증번호가 일치하지 않습니다.",
+          "hint": "인증번호를 입력하세요.",
+          "title": "인증번호"
+        }
+      },
+      "id": {
+        "hint": "아이디 입력",
+        "submit": "중복확인",
+        "valid": {
+          "check": "사용 할 수 있는 아이디입니다.",
+          "duplicate": "이미 존재하는 아이디입니다.",
+          "no_check": "중복확인을 해주세요.",
+          "regex": "영문과 숫자 및 -_.를 사용하여, 12자이내로 입력해주세요."
+        }
+      },
+      "name": {
+        "hint": "이름 및 단체명 입력",
+        "valid": "이름은 20자이내로 입력해야 합니다."
+      },
+      "nickname": {
+        "hint": "닉네임 입력",
+        "submit": "중복확인",
+        "valid": {
+          "check": "사용 할 수 있는 닉네임입니다.",
+          "duplicate": "이미 존재하는 닉네임입니다.",
+          "no_check": "중복확인을 해주세요.",
+          "regex": "한글/영문과 숫자 및 -_.를 사용하여, 12자이내로 입력해주세요."
+        }
+      },
+      "number": {
+        "hint": "휴대폰번호 입력",
+        "submit": "인증하기",
+        "valid": "올바른 핸드폰 번호를 입력해 주세요."
+      },
+      "password": {
+        "confirm": {
+          "hint": "비밀번호 확인",
+          "valid": "비밀번호가 일치하지 않습니다."
+        },
+        "hint": "비밀번호 입력",
+        "title": "비밀번호",
+        "valid": "8~20자 사이, 괄호, 따옴표를 제외한 특수문자를 포함해야합니다."
+      }
+    },
+    "must": "(필수)",
+    "next": "다음",
+    "personal": "개인",
+    "personal_signup": "미디어아트<br />작가",
+    "selection": "(선택)",
+    "show_all": "전문보기",
+    "terms1": "서비스 이용약관",
+    "terms2": "개인정보 수집 / 이용",
+    "terms3": "이벤트/기타 메일 수신",
+    "terms_title": "약관동의"
+  },
+  "kakao_title": "톡문의"
+}

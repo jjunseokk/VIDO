@@ -1,0 +1,42 @@
+[
+  {
+    "mood": "SOFT",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "HARD",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "WARM",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "COOL",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "DRY",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "CLASSIC",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "HARD",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "COOL",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "DRY",
+    "bg": "./img/sample_blend.png"
+  },
+  {
+    "mood": "DRY",
+    "bg": "./img/sample_blend.png"
+  }
+]

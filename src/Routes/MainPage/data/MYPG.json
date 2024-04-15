@@ -1,0 +1,22 @@
+[
+  {
+    "menu": "내정보관리",
+    "link": "#",
+    "notification": 0
+  },
+  {
+    "menu": "작품 업로드",
+    "link": "#",
+    "notification": 0
+  },
+  {
+    "menu": "작품 수정/삭제",
+    "link": "#",
+    "notification": 1000
+  },
+  {
+    "menu": "작품 크롭",
+    "link": "#",
+    "notification": 0
+  }
+]

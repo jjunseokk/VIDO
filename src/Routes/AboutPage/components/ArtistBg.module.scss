@@ -1,0 +1,134 @@
+.ArtistBg1 {
+  .money {
+    position: relative;
+    animation: money 3s infinite 0.5s;
+    opacity: 0;
+  }
+}
+
+.ArtistBg2 {
+  g {
+    position: relative;
+  }
+  position: relative;
+  .flicker {
+    position: relative;
+    transform-origin: center;
+    animation: flicker 2s infinite;
+    transform-box: fill-box;
+  }
+  .dots {
+    > circle {
+      transform-box: fill-box;
+      animation: flicker 1s infinite;
+      &:nth-of-type(even) {
+        animation: flicker 1s infinite 0.5s;
+      }
+    }
+  }
+  .icon {
+    transform-box: fill-box;
+    position: relative;
+    transform-origin: center;
+    animation: rotate1 2s infinite;
+  }
+}
+
+.ArtistBg3 {
+  .arrow {
+    > path {
+      &:nth-of-type(1) {
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+        animation: dash 5s linear infinite;
+      }
+      &:nth-of-type(2) {
+        opacity: 0;
+        animation: opacity 5s linear infinite;
+      }
+    }
+  }
+}
+
+@keyframes money {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 100;
+    stroke-dasharray: 100;
+  }
+  30% {
+    stroke-dashoffset: 0;
+    stroke-dashoffset: 100;
+  }
+  50% {
+    stroke-dashoffset: -100;
+    stroke-dasharray: 100;
+  }
+  100% {
+    stroke-dashoffset: -100;
+    stroke-dasharray: 100;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

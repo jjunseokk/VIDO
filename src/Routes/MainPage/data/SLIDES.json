@@ -1,0 +1,21 @@
+[
+  {
+    "img": "./img/slide1.png",
+    "txt": "txt1"
+  },
+  {
+    "img": "./img/slide2.png",
+    "txt": "txt2",
+    "link": "https://galeriebhak.com/"
+  },
+  {
+    "img": "./img/slide3.png",
+    "txt": "txt3",
+    "link": "https://ryujaechun.com/"
+  },
+  {
+    "img": "./img/slide4.png",
+    "txt": "txt4",
+    "link": "https://www.yeesookyung.com/"
+  }
+]

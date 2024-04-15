@@ -1,0 +1,77 @@
+@import '../../../reset.scss';
+
+div.loginbox {
+  background-color: $signpg-bg-color;
+  height: calc(100vh - 90px);
+  padding: 100px;
+  h1 {
+    text-align: center;
+    font-size: 22px;
+    font-family: $font-kor;
+    letter-spacing: -0.44px;
+    margin-bottom: 30px;
+  }
+  form {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 400px;
+    height: 355px;
+    margin: 0 auto;
+    padding: 64px 60px;
+    .fail {
+      position: absolute;
+      top: 282px;
+    }
+    > input {
+      &:first-of-type {
+        margin-bottom: 30px;
+      }
+      &:last-of-type {
+        margin-bottom: 12px;
+      }
+    }
+    div.checkbox {
+      position: relative;
+      display: flex;
+      margin-top: 12px;
+      p.find {
+        display: flex;
+        position: absolute;
+        right: 0;
+        a {
+          font-size: $footer-menu-size;
+          color: $search-color;
+        }
+      }
+    }
+    > button {
+      &:nth-of-type(1) {
+        margin-top: 32px;
+      }
+      &:nth-of-type(2) {
+        margin-top: 10px;
+
+        button {
+          background-color: #f8f8f8;
+          color: $highlight-color;
+          transition: all 0.2s;
+          position: relative;
+          z-index: 3;
+
+          &::after {
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            content: '';
+            transition: all 0.2s;
+            width: 0%;
+            height: 100%;
+            background-color: $highlight-color;
+          }
+        }
+      }
+    }
+  }
+}

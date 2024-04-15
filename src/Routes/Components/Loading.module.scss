@@ -1,0 +1,53 @@
+@import '../../reset.scss';
+
+.LoadingWrap {
+  left: 50%;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  .Loading {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    border: 1px solid $border-color;
+    overflow: hidden;
+    .bar {
+      position: absolute;
+      top: -10px;
+      left: 23px;
+      width: 18px;
+      height: 84px;
+      animation: loadingAnimation 1.2s cubic-bezier(0.17, 0.37, 0.43, 0.67)
+        infinite;
+      &::after {
+        background-color: $highlight-color;
+        display: block;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 18px;
+        height: 24px;
+      }
+    }
+    .cover {
+      width: 48px;
+      height: 48px;
+      left: 8px;
+      top: 8px;
+      background-color: #fff;
+      position: absolute;
+      border-radius: 100%;
+    }
+  }
+}
+
+@keyframes loadingAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

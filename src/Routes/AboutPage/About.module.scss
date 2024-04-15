@@ -1,0 +1,102 @@
+@import '../../reset.scss';
+.About {
+  > header {
+    width: 100%;
+    height: 420px;
+    position: relative;
+    background-image: url('/img/aboutBanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: #2b2b2b;
+      opacity: 0.8;
+    }
+    > h1 {
+      font: $bold 48px/71px $font-kor;
+      text-align: center;
+      position: relative;
+      top: 104px;
+      color: #ffffff;
+      span {
+        color: #5c94ff;
+      }
+    }
+  }
+  > main {
+    margin-left: $left;
+    width: $pg-width;
+    > .vid {
+      height: fit-content;
+      margin-top: 52px;
+      margin-bottom: 102px;
+      position: relative;
+
+      > video {
+        width: $pg-width;
+        border: 1px solid #707070;
+      }
+      > img {
+        position: absolute;
+        z-index: 20;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+      }
+    }
+    > section {
+      width: 80%;
+      position: relative;
+      padding-bottom: 180px;
+      margin: 0 auto;
+      > h1 {
+        text-align: center;
+        color: #2b2b2b;
+        font: $bold 60px/80px $font-kor;
+        margin-bottom: 140px;
+        > span {
+          color: #1152cc;
+        }
+      }
+      &:nth-of-type(1) {
+        margin-bottom: 240px;
+      }
+      &:nth-of-type(2) {
+        > div {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      > span {
+        position: absolute;
+        bottom: -30px;
+        font: $regular 16px $font-eng;
+        text-align: center;
+        width: 100%;
+        color: #707070;
+      }
+    }
+    > div.companies {
+      position: relative;
+      left: calc($left * -1);
+      width: 100vw;
+      margin-bottom: 120px;
+      height: 360px;
+      background-color: #f8f8f8;
+      padding: 36px 170px;
+      > h1 {
+        text-align: center;
+        font: $bold 36px/54px $font-kor;
+        color: #2b2b2b;
+      }
+    }
+  }
+}

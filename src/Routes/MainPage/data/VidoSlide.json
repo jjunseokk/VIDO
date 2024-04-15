@@ -1,0 +1,35 @@
+[
+    {
+        "src": "/img/slide/hyundai.png",
+        "titleImg": "/img/slide/hyundai_logo.png",
+        "mask": false,
+        "bottom": 158,
+        "color": "#ffffff",
+        "linkColor": "#ffffff",
+        "titleSize": 24,
+        "titleMargin": 11,
+        "txt": ["더현대 서울의 개점 3주년을 기념하여 미디어갤러리 전시를 선보입니다.", "VIDO 미디어 아티스트들의 다양한 작품 세계를 감상해 보시기 바랍니다."]
+    },
+    {
+        "src": "/img/slide/coex_xpace.png",
+        "titleImg": "/img/slide/coex_xpace_logo.png",
+        "mask": false,
+        "bottom": 158,
+        "color": "#ffffff",
+        "linkColor": "#ffffff",
+        "titleSize": 24,
+        "titleMargin": 11,
+        "txt": ["VIDO가 큐레이팅한 디지털아트 전시가 코엑스의 XPACE에서 진행 중입니다.", "매달 COEX의 다양한 이벤트에 맞춰 큐레이팅 된 VIDO의 작품을 감상해 보세요."]
+    },
+    {
+        "src": "/img/slide/gwangnam_library.png",
+        "titleImg": "/img/slide/gwangnam_library_logo.png",
+        "mask": false,
+        "bottom": 158,
+        "color": "#ffffff",
+        "linkColor": "#ffffff",
+        "titleSize": 24,
+        "titleMargin": 11,
+        "txt": ["광남도서관의 새로운 미디어캔버스에 VIDO의 작품이 전시되고 있습니다.", "VIDO에서 큐레이팅한 작품들을 통해 광남도서관의 모습을 다채롭게 표현하고 있습니다."]
+    }
+]

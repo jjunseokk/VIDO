@@ -1,0 +1,38 @@
+@import '../../../reset.scss';
+
+.link {
+  position: relative;
+  &:hover {
+    filter: contrast(3) saturate(1.4) hue-rotate(252deg);
+  }
+  a {
+    position: absolute;
+    top: 0;
+    display: block;
+    content: '';
+    color: #fff;
+    width: 280px;
+    height: 32px;
+    z-index: 10;
+    background: none;
+  }
+  .RegisterBtn {
+    font-family: $font-kor;
+    cursor: pointer;
+    width: 280px;
+    height: 32px;
+    border: none;
+    color: #fff;
+    background-color: $highlight-color;
+    transition: all 0.2s;
+    line-height: 32px;
+    font-size: $normal-size;
+    position: relative;
+    &:disabled {
+      background-color: $border-color;
+      cursor: default;
+    }
+    &:hover {
+    }
+  }
+}

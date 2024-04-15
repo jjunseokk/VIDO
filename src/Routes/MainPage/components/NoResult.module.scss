@@ -1,0 +1,32 @@
+@import '../../../reset.scss';
+.NoResult {
+  position: relative;
+  margin: 24px 0;
+  height: 468px;
+  width: $pg-width;
+  margin-left: $left;
+  text-align: center;
+  font-family: $font-kor;
+  > section {
+    margin-top: 136px;
+    > h1 {
+      color: $font-color;
+      font-size: 22px;
+      font-weight: $bold;
+      line-height: 33px;
+      > span {
+        color: $highlight-color;
+      }
+    }
+    > p {
+      font-size: 16px;
+      color: $font-color;
+      margin-top: 13px;
+      margin-bottom: 33px;
+    }
+    > div {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

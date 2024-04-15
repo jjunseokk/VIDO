@@ -1,0 +1,47 @@
+@import '../../../reset.scss';
+div.searchinput {
+  position: absolute;
+  left: $left;
+  z-index: 30;
+  height: 30px;
+  margin-top: 0.3vh;
+  input {
+    // width: 320px;
+    width: 17vw;
+    font-family: $font-kor;
+    height: 30px;
+    border: 1px solid $border-color;
+    border-radius: 15px;
+    color: $font-color;
+    padding-top: 3px;
+    padding-left: 16px;
+    transition: all 0.2s;
+    &::placeholder {
+      font-family: $font-kor;
+      color: $search-color;
+      width: 288px;
+      line-height: 30px;
+      font-size: 14px;
+    }
+    &:focus {
+      outline: none;
+      border: 1px solid $highlight-color;
+      &::placeholder {
+        opacity: 0;
+      }
+    }
+  }
+  span {
+    position: absolute;
+    right: 10px;
+    top: 55%;
+    transform: translateY(-50%);
+    z-index: 3;
+    cursor: pointer;
+    embed {
+      cursor: pointer;
+      position: relative;
+      z-index: -1;
+    }
+  }
+}

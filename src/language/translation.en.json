@@ -1,0 +1,657 @@
+{
+  "about": {
+    "affiliate": "VIDO Partners",
+    "more_introduction" : "Enjoy various media art services with a VIDO subscription.",
+    "show_more" : "More",
+    "content1": "<0>Media Art Subscription</0> and <0>Exhibition</0><br />is available in VIDO,<br />The largest Media Art OTT platform",
+    "content2": {
+      "item1": {
+        "comment": "Automated Algorithms Based On Media Art Playback, Time, Cumulative Play Count, Canvas Size, Etc. Provide Legitimate Usage Fees For Media Art Use",
+        "description": "Earn Monthly Revenue Based On Accumulated Number Of Plays On Different Canvas Nationwide",
+        "title": "Media Art Revenue Creation"
+      },
+      "item2": {
+        "comment": "Promote Selected Artists And Works Through Data Reports And Sns / Utilize And Promote Works Through Various Projects",
+        "description": "Promote Media Artists Through Web Page And Monthly Reports To Canvas Owners",
+        "title": "Pr And Marketing Opportunities"
+      },
+      "item3": {
+        "comment": "By Producing General Painting Works As Media Art, You Can Enjoy The Works From Various Perspectives And Expect The Spread Of Media Art",
+        "description": "Production Of Media Art As A Secondary Work Based On General Painting Works",
+        "title": "Remaking Painting As Media Art"
+      },
+      "manual": "Media Artist Manual",
+      "submit": "Registering an artist",
+      "title": "Be <0>VIDO Artist</0>",
+      "subscribe" : "Platform subscription inquiry"
+    },
+    "content3": {
+      "item1": {
+        "comment": "* Set The Playlist You Want\nBy Artist, Category, Editor Recommendation, Etc",
+        "description": "Use Subscription Services\nEfficiently And Display Various\nMedia Art According To Canvas Size.",
+        "title": "Displaying a Variety Of\nMedia Art"
+      },
+      "item2": {
+        "description": "Provides Monthly Reports On\nMedia Art And Artist Trends Through\nCurating And Data On Media Art\nPlayed On Canvas",
+        "title": "Provides Media Art\nTrends Report"
+      },
+      "item3": {
+        "description": "Through Experts, We Provide Art\nConsulting According To The Purpose,\nCanvas Size, And Brand\nIdentity Of The Space.",
+        "title": "Art Consulting For\nIncreasing Space Value"
+      },
+      "submit": "Get Collector Benefits",
+      "title": "Be <0>VIDO Collector!</0>"
+    },
+    "VIDO_ARTIST" : {
+      "step_1" : "Uploading a work",
+      "step_2" : "Media Canvas Matching",
+      "step_3" : "Exhibition of works",
+      "step_4" : "Revenue generation"
+    },
+    "VIDO_COLLECTOR" : {
+      "step_1" : "Platform Subscription",
+      "step_2" : "Select work",
+      "step_3" : "Exhibition of works"
+    }
+  },
+  "author": {
+    "all": {
+      "search": "Search Artist",
+      "sort": {
+        "name": "A-Z",
+        "new": "Newest"
+      },
+      "title": "List Of Artist"
+    },
+    "detail": {
+      "more": "Show More",
+      "total": "Total Number Of Media Art <0>{{value}} Piece </0>"
+    },
+    "recommend": "Recommended Artist"
+  },
+  "banner": {
+    "guide": "VIDO Guide",
+    "more": "More",
+    "news": "VIDO News"
+  },
+  "collector": {
+    "address": "Address",
+    "collector": "Collector",
+    "description": "Not only media art subscription services, but also various events\n using media art and media art campaigns. Experience various media art services that can\nonly be enjoyed by VIDO.",
+    "keyword": "Keyword",
+    "manual_video": "Client Manual Video",
+    "ratio": "Ratio",
+    "resolution": "Resolution",
+    "size": "Size",
+    "title": "Integrate various media\nservices into VIDO.",
+    "subscribe" : "Subscription Inquiry",
+    "subscribe_introduction" : "Receive various media art benefits by subscribing to VIDO.",
+    "collect_gallery": [
+      {
+        "src": "/img/Subscribe_MediaArt.mp4",
+        "title": "1. Subscribe to Media Art",
+        "sub_title": [
+          "Unlimited appreciation of",
+          "works by various artists."
+        ],
+        "txt": [
+          "It is a subscription service where you can appreciate and",
+          "display the works of famous domestic and foreign media artists.", 
+          "Select the work you want and display it on your own display."
+        ],
+        "collectBox": [
+          "OTT",
+          "SERVICE"
+        ]
+      },
+      {
+        "src": "/img/MediaArt_Event.mp4",
+        "title": "2. Media Art Event",
+        "sub_title": [
+          "Maximize interest in pop-ups",
+          "and festivals by utilizing media art."
+        ],
+        "txt": [
+          "Create a variety of events such as exhibitions, events, and festivals",
+          "with VIDO media art."
+        ],
+        "collectBox": [
+          "MEDIA ART",
+          "EVENT"
+        ]
+      },
+      {
+        "src": "/img/MediaArt_Campaign.mp4",
+        "title": "3. Media Art Campaign",
+        "sub_title": [
+          "Brand marketing and",
+          "campaigns through various media art"
+        ],
+        "txt": [
+          "Conduct brand marketing with a media art",
+          "campaign that fits the brand identity."
+        ],
+        "collectBox": [
+          "MEDIA ART",
+          "CAMPAIGN"
+        ]
+      }
+    ]
+  },
+  "common": {
+    "cancel": "Cancel",
+    "done": "OK",
+    "email": "E-Mail",
+    "id": "ID",
+    "login": "Login",
+    "logout": "Logout",
+    "name": "Name",
+    "nickname": "Nickname",
+    "num": "Number",
+    "number": "Mobile Number",
+    "save": "Save",
+    "signup": "Signup"
+  },
+  "find": {
+    "email": {
+      "hint": "Enter Email",
+      "submit": "Verify",
+      "verify": {
+        "check": "Check",
+        "hint": "Enter Email Code"
+      }
+    },
+    "id": "Enter ID",
+    "name": "Enter Name",
+    "submit": "Next",
+    "title": "Forget Your Password?",
+    "title_id": "Forget Your Username?"
+  },
+  "footer": {
+    "about": "About",
+    "company": {
+      "CEO": "CEO: Ryan Shim",
+      "address": "50, Nonhyeon-Ro 151-Gil, Gangnam-Gu, Seoul, Republic Of Korea",
+      "name": "BESTOFFER",
+      "number": "02 512 0991",
+      "privacy": "Privacy: James Baek"
+    },
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "service_center": "Customer Service",
+    "service_contact": "Service Contact",
+    "terms": "Terms"
+  },
+  "found": {
+    "description": "*Please Change Your Password After Logging In!",
+    "submit": "Log In",
+    "temp": "Your Temporary Password Is <br /><0>{{value}}</0> ",
+    "title": "Your Username Is <br /><0>{{value}}</0> "
+  },
+  "header": {
+    "about": "About",
+    "author": "Artist",
+    "collector": "Collector",
+    "media_art": "Media Art",
+    "mode_dark": "Dark Mode",
+    "mode_light": "Light Mode",
+    "menu": {
+      "dashboard": "Dashboard",
+      "info": "My Page",
+      "media_art": "Management",
+      "refund": "Withdrawal"
+    },
+    "monthly_report": "Monthly Report",
+    "mypage": "My Page",
+    "search": "Search"
+  },
+  "login": {
+    "id_input": "Username",
+    "login_failed": "Incorrect Id/Pw.",
+    "login_removed": "Resigned Member.",
+    "password_find": "Password find",
+    "pw_input": "Password",
+    "save": "Stay Signed In"
+  },
+  "main": {
+    "canvas_gallery": "Media Canvas\n with VIDO",
+    "new": {
+      "art": "New Media Art",
+      "author": "New Media Artist"
+    },
+    "top10": {
+      "title": "VIDO TOP10",
+      "sub_title": "The Most Played Media Art On VIDO this month"
+    },
+    "popular": {
+      "title": "Soaring in Popularity Media Art"
+    },
+    "spotlight": {
+      "title": "Artist in the spotlight"
+    }
+  },
+  "media_art": {
+    "all": {
+      "order": {
+        "new": "Newest",
+        "top": "Top"
+      },
+      "search": "Search Media Art",
+      "title": "List Of Media Art"
+    },
+    "detail": {
+      "running_time": "Running Time",
+      "same": "Artist's Other Media Art",
+      "similar": "Related Media Art"
+    },
+    "editor_pick": "Editor's Pick",
+    "more": "More",
+    "recommend": "Recommended Media Art",
+    "tag": {
+      "genre": "Genre",
+      "mood": "Mood",
+      "title": "Sort By Tag"
+    }
+  },
+  "mypage": {
+    "dashboard": {
+      "no_data" : "Item does not exist.",
+      "art_analysis": {
+        "art": "Art",
+        "count": {
+          "approved": "Approved",
+          "ing": "Approving",
+          "reject": "Rejected",
+          "total": "Total MediaArt"
+        },
+        "date": "Date",
+        "location": "Location",
+        "media_art": "Media Art",
+        "num": "Work Number",
+        "play_count": "Play Count",
+        "play_count_unit": "(Times)",
+        "play_time": "Play Time",
+        "play_time_unit": "(Min)",
+        "recent": "Recent Uploaded Work",
+        "title": "Art Analysis",
+        "upload_or_approve": "Upload and approve",
+        "views": "MediaArt Views",
+        "download": "MediaArt Downloads"
+      },
+      "summary": {
+        "art_analysis": {
+          "upload": "Uploads",
+          "views": "Views",
+          "download": "Downloads",
+          "summary_unit": "Entire",
+          "art_analysis_unit": "All",
+          "art_analysis_chart" : {
+            "my_upload" : "My Uploads",
+            "all_upload" : "All Uploads",
+            "my_views" : "My Views",
+            "all_views" : "All Views",
+            "my_download" : "My Downloads",
+            "all_download" : "All Downloads"
+          }
+        },
+        "revenue_analysis": {
+          "lowest_return": "Lowest",
+          "highest_return": "Highest",
+          "average_return": "Average",
+          "return_unit": "(Monthly)",
+          "all_average_multiple": "All Average",
+          "multiply" : "x",
+          "revenue_analysis_chart" : {
+            "all_average" : "All Average",
+            "my_revenue" : "My Revenue"
+          }
+        },
+        "title": "Summary",
+        "last": "Last",
+        "contrast": "Contrast"
+      },
+      "revenue_analysis": {
+        "title": "Revenue Analysis",
+        "art_revenue": "Revenue by MediaArt",
+        "top_revenue": "Top Revenue MediaArt",
+        "art_revenue_table": {
+          "art_num": "Art Number",
+          "art_name": "Art Name",
+          "upload_date": "Upload Date",
+          "revenue": "Revenue"
+        },
+        "ect" : "etc" 
+      },
+      "date": {
+        "3month": "Last 3Months",
+        "6month": "Last 6Months",
+        "all": "All",
+        "custom": "User Settings",
+        "month": "M",
+        "year": "Year"
+      },
+      "title": "Dashboard"
+    },
+    "info": {
+      "change": {
+        "change": "Change",
+        "check": "Check",
+        "close": "Confirm",
+        "description": "Artist<br />Introduction ",
+        "description_hint": "Please Enter The Artist Information.(Up To 200 Characters)",
+        "link": {
+          "add": "Link Add",
+          "err": "Please Enter A Link In The Correct Format.",
+          "input_hint": "Input URL",
+          "select": "Choose",
+          "select_hint": "Select a link type.",
+          "title": "LInk"
+        },
+        "marketing": "Consent To Receive Information",
+        "title": "Information"
+      },
+      "change_pw": {
+        "change_password": "Password To Change",
+        "change_password_confirm": "Re-Enter Password To Change ",
+        "password": "Current Password",
+        "title": "Change Password",
+        "valid": {
+          "done": "Password Has Been Changed.<br />Please Login Again.",
+          "no_same": "Passwords Do Not Match.",
+          "regex": "Between 8 And 20 Characters, Including Special Characters Excluding Parentheses And Quotation Marks.",
+          "wrong": "Incorrect Password."
+        }
+      },
+      "title": "Your Account"
+    },
+    "media_art": {
+      "approved": "Approved",
+      "count": "Number Of Plays",
+      "crop": {
+        "canvas": "Registered Canvas",
+        "message": {
+          "canvas": "Please Select Media Canvas.",
+          "crop1": "Crop In Progress.",
+          "crop2": "Please Don't Refresh Or Move The Page.",
+          "crop_done": "Crop Completed. Completed Cropping Can Be Checked In Media Art Crop Management In My Media Management.",
+          "duplicate": "Crop Already Exists.",
+          "scale": "The Video Magnification Is Over 2x. Would You Like To Proceed?",
+          "video": "Please Upload Media Art."
+        },
+        "preview": "Preview",
+        "request": "Requested Ratio",
+        "resolution": "Canvas Resolution",
+        "upload": "Upload New",
+        "upload_description": "Upload A New Resolution For The Selected Ratio."
+      },
+      "crop_btn": "Crop",
+      "crop_control": {
+        "all": "All",
+        "date": "Date",
+        "resolution": "Resolution",
+        "title": "Crop Control"
+      },
+      "down": "Download",
+      "edit": "Edit",
+      "ing": "Approving",
+      "is_approved": "Approval Status",
+      "refund": "Total Revenue",
+      "reject": "Rejected",
+      "reject_reason": "Reason For Rejection",
+      "request": "Request",
+      "thumbnail": "Thumbnail",
+      "title": "Managing My Media Art",
+      "title_description": "Title / Description",
+      "upload": {
+        "description_hint": "Enter Media Art Description",
+        "genre": {
+          "description": "(* At Least 2 Required)",
+          "title": "Set Genre"
+        },
+        "group_name": "Group Name",
+        "img_error": "Wrong Image",
+        "mockup": {
+          "big": "A Large Space",
+          "description": "Please Select A Mock-Up Image To Highlight My Media Art And Upload It According To The Ratio (Multiple Uploads Are Possible)",
+          "horizontal": "Horizontal",
+          "small": "A Small Space",
+          "title": "Set Mock-Up Image",
+          "vertical": "Vertical"
+        },
+        "mood": {
+          "description": "(*Between 2-5)",
+          "title": "Set Mood"
+        },
+        "nickname": "Artist Name",
+        "preview": "Set Preview Image",
+        "preview_description": "(*Please Upload An Image Of 600x400)",
+        "title": "Upload",
+        "title_hint": "Enter Media Art Title",
+        "upload_description": "Please Upload A Video Of H.264 Or H.265 Codec For At Least 10 Seconds.",
+        "upload_notice": "*The Uploaded Media Art May Be Partially Cut.<br />Or The Ratio And Size May Change Depending On The Resolution Of The Electronic Display Board Using The Service."
+      }
+    },
+    "profile": {
+      "img_hint": "Please upload a 300x300px image."
+    },
+    "refund": {
+      "account": "Bank Account Number",
+      "account_hint": "Enter Account Number (Please Enter Only Numbers Without ‘-‘.)",
+      "name_hint": "Enter Account Holder",
+      "detail": "Detail",
+      "history": {
+        "amount": "Amount",
+        "amount_unit": "(Unit : ￦)",
+        "date": "Withdrawal Date",
+        "num": "Number",
+        "request_date": "Request Date",
+        "title": "History",
+        "status" : "status"
+      },
+      "message": {
+        "amount1": "Please Enter The Exact Amount In 1 Dollar Increments.",
+        "amount2": "You Can Only Enter An Amount Less Than The Amount Available For Withdrawal.",
+        "register_done": "Your Account Has Been Registered.",
+        "request_description": "The Requested Amount Will Be Deposited Within 7 Days From The Date Of Request.<br />Customer Service (02-512-0982)",
+        "request_done": "Your Withdrawal Request Has Been Completed.",
+        "yet": "Unprocessed Withdrawal Request."
+      },
+      "month": "",
+      "month_receipt": "Month Receipt",
+      "pdf": {
+        "address": "3 floor, 50, Nonhyeon-ro 151-gil, Gangnam-gu, Seoul, Republic of Korea",
+        "address_title": "Address",
+        "art_title": "Title",
+        "business_number": "Busniess registration number",
+        "compnay": "VERS",
+        "compnay_title": "Company Name",
+        "date": "Date",
+        "description1": "*The company uses personal information within the scope of the 'Personal Information Processing Policy' and does not use it without the prior consent of the data subject or disclose personal information to the public in principle.",
+        "description2": "\"Playback revenue can be checked and withdrawn from My Page on the VIDO website.\"",
+        "description3": "vido.gallery > Log In > My Page > Withdrawal",
+        "for": "We supply to [<0>{{value}}</0>] as below",
+        "revenue": "Revenue",
+        "save": "Save as PDF",
+        "supplier": "Supplier",
+        "tax": "Tax",
+        "title": " Receipt",
+        "total": "Total",
+        "wait": "Please wait.."
+      },
+      "receipt": "Show Receipt",
+      "receipt_art": "Revenue Arts",
+      "receipt_date": "Date",
+      "receipt_total": "Total Amount",
+      "register": "Register",
+      "request": "Request",
+      "request_amount": "Request Amount",
+      "request_hint": "From $10 Or More, You Can Enter In Increments Of $1.",
+      "select": "Select",
+      "title": "Withdrawable Revenue",
+      "total_amount": "Total Amount",
+      "year": " /"
+    }
+  },
+  "report": {
+    "close": "Close",
+    "month": "",
+    "month_list": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "monthly_report": "Monthly Report",
+    "more": "More",
+    "show_all": "Show All",
+    "year": "-"
+  },
+  "search": {
+    "artist": "Artist",
+    "media_art": "Media Art",
+    "no_result": "There Are No Search Results For '{{value}}'.",
+    "no_result_description": "Please Check The Search Word Again. ",
+    "show_all": "Show All",
+    "title": "Search Result"
+  },
+  "service": {
+    "faq": {
+      "account": "Account Management",
+      "all": "All",
+      "artist": "Artist",
+      "category": "Category",
+      "collector": "Canvas Collecter",
+      "content_title": "Title",
+      "hint": "Search For Questions",
+      "service": "Service",
+      "title": "FAQ"
+    },
+    "inquiry": {
+      "category": {
+        "account": "Account",
+        "artist": "Media Artist",
+        "collector": "Canvas Collector",
+        "etc": "Etc",
+        "service": "Service"
+      },
+      "history": {
+        "answered": "Completed",
+        "category": "Category",
+        "content_title": "Title",
+        "ing": "Ongoing",
+        "is_answer": "Status",
+        "title": "My Contact History"
+      },
+      "popup": {
+        "title": "This Page Requires Login."
+      },
+      "send": {
+        "close": "Confirm",
+        "description_hint": "Please Enter Your Question.",
+        "done": "Your Question Has Been Registered.",
+        "submit": "Register",
+        "title": "1:1 Contact",
+        "title_hint": "Enter The Title."
+      },
+      "title": "1:1 Contact"
+    },
+    "notice": {
+      "content_title": "Title",
+      "date": "Date",
+      "title": "Notice"
+    },
+    "title": "Help Center"
+  },
+  "signup": {
+    "all": "Agree To All",
+    "all_comment": "Agree To All Of The Following Terms And Conditions Of VIDO Inculuding Optional.",
+    "done": {
+      "description": "VIDO Membership Registration Completed",
+      "submit": "Log In",
+      "title": "Sign Up Completed",
+      "welcome": "Welcome!"
+    },
+    "group": "Group",
+    "group_signup": "Media Art Group",
+    "info": "Sign Up",
+    "input": {
+      "done": "Sign Up Completed",
+      "email": {
+        "alert": "You can request email code up to three times.",
+        "left": "Left Time",
+        "retry": "ReSend",
+        "self": "Entering Directly",
+        "submit": "Verify",
+        "valid": {
+          "check": "This Email Is Available.",
+          "duplicate": "This Email Is Already In Use.",
+          "no_check": "Please Check The Email.",
+          "regex": "Your Email Address Is Incorrect."
+        },
+        "verify": {
+          "confirm": "Check",
+          "failed": "The code does not match. Please check again",
+          "hint": "Enter Email Code",
+          "title": "Email Code"
+        }
+      },
+      "id": {
+        "hint": "Username",
+        "submit": "Confirm",
+        "valid": {
+          "check": "This Username Is Available.",
+          "duplicate": "This Username Is Already In Use.",
+          "no_check": "Please Check The Username",
+          "regex": "You Can Only Use English Letters, Numbers, And -_. Up To 12 Characters."
+        }
+      },
+      "name": {
+        "hint": "Enter Name Or Group Name",
+        "valid": "The Name Must Be No More Than 20 Letters."
+      },
+      "nickname": {
+        "hint": "Nickname",
+        "submit": "Confirm",
+        "valid": {
+          "check": "This Nickname Is Available.",
+          "duplicate": "This Nickname Is Already In Use.",
+          "no_check": "Please Check The Nickname.",
+          "regex": "You Can Only Use Korean/English Letters, Numbers, And -_. Up To 12 Characters."
+        }
+      },
+      "number": {
+        "hint": "Mobile Number",
+        "submit": "Verify",
+        "valid": "Your Mobile Number Is Incorrect."
+      },
+      "password": {
+        "confirm": {
+          "hint": "Re-Enter Password",
+          "valid": "Password Does Not Match."
+        },
+        "hint": "Password",
+        "title": "Password",
+        "valid": "Must Contain Special Characters Excluding Parentheses And Quotes,<br />Between 8 And 20 Characters."
+      }
+    },
+    "must": "(Required)",
+    "next": "Next",
+    "personal": "Personal",
+    "personal_signup": "Media Artist",
+    "selection": "(Optional)",
+    "show_all": "Show All",
+    "terms1": " Terms Of Service",
+    "terms2": "Privacy Policy",
+    "terms3": " Receive Promotional Information",
+    "terms_title": "Agree To Terms And Conditions"
+  },
+  "kakao_title" : "Talk inquiry"
+}

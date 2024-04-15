@@ -1,0 +1,161 @@
+@import '../../../reset.scss';
+.UserDashboardPaymentStat {
+  display: flex;
+  height: 649px;
+
+  > div {
+    &:nth-of-type(1) {
+      width: 396px;
+      border-right: 1px solid #e0e0e0;
+      padding: 20px 14px 45px 30px;
+      > ul {
+        > li {
+          > p {
+            &:first-of-type {
+              font: $medium 14px $font-kor;
+              color: #707070;
+              margin-bottom: 7px;
+              > span {
+                color: #707070;
+                font-size: 10px;
+                transform: scale(0.8);
+                margin-left: 6px;
+              }
+            }
+            &:nth-of-type(2) {
+              font: $bold 24px $font-kor;
+              color: #151515;
+              margin-bottom: 32px;
+            }
+          }
+          > .bestProfit {
+            display: flex;
+            > li {
+              margin-bottom: 32px;
+              height: 190px;
+              &:nth-of-type(1) {
+                > ul {
+                  > li {
+                    display: flex;
+                    height: 32px;
+                    margin: 5px 0;
+                    > img {
+                      object-fit: cover;
+                      width: 48px;
+                      height: 32px;
+                      border-radius: 4px;
+                      margin-right: 8px;
+                    }
+                    > p {
+                      word-break: break-all;
+                      font: $medium 10px $font-kor;
+                      color: #707070;
+                      display: block;
+                      width: 108px;
+                    }
+                  }
+                }
+              }
+              &:nth-of-type(2) {
+                margin-left: 25px;
+              }
+              &:nth-of-type(3) {
+                margin-left: 22px;
+                > ul {
+                  > li {
+                    height: 32px;
+                    margin: 5px 0;
+                    display: block;
+                    > p {
+                      height: fit-content;
+                      width: fit-content;
+                      font: $regular 12px $font-eng;
+                      color: #707070;
+                      display: block;
+                      line-height: 32px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          > .monthlyProfit {
+            margin-top: 14px;
+            display: flex;
+            > li {
+              > ul {
+                height: 108px;
+                > li {
+                  height: 32px;
+                  line-height: 32px;
+                  margin-top: 4px;
+                  font: $regular 12px $font-kor;
+                  color: #707070;
+                }
+              }
+              &:nth-of-type(1) {
+                width: 40px;
+              }
+              &:nth-of-type(3) {
+                margin-left: 22px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &:nth-of-type(2) {
+      width: 573px;
+      > div {
+        padding: 20px 26px;
+        > p {
+          &:first-of-type {
+            font: $medium 14px $font-kor;
+            color: #707070;
+            margin-bottom: 7px;
+            > span {
+              color: #707070;
+              font-size: 10px;
+              transform: scale(0.8);
+              margin-left: 6px;
+            }
+          }
+        }
+
+        &.profitByArt {
+          // border-bottom: 1px solid #e0e0e0;
+          // height: 373px;
+          height: 100%;
+          position: relative;
+          > ul {
+            position: absolute;
+            bottom: 26px;
+            display: flex;
+            gap: 12px;
+            > li:first-of-type {
+              margin-right: 16px;
+              line-height: 16px;
+
+              > span {
+                font: $regular 10px/16px $font-eng;
+                color: #707070;
+                transform: scale(0.8);
+              }
+            }
+            > li:not(:first-of-type) {
+              cursor: pointer;
+            }
+          }
+        }
+        &.profitByPlace {
+          > div {
+            margin-top: 12px;
+            width: 520px;
+            height: 205px;
+            background-color: #f8f8f8;
+          }
+        }
+      }
+    }
+  }
+}

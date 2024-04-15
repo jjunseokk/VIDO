@@ -1,0 +1,82 @@
+@import '../../../reset.scss';
+
+.signupchoose {
+  background-color: $signpg-bg-color;
+  padding-top: 100px;
+  height: calc(100vh - 90px);
+  width: 100%;
+
+  h1 {
+    text-align: center;
+    font-size: 22px;
+    font-family: $font-kor;
+    letter-spacing: -0.44px;
+  }
+  > div.box {
+    display: flex;
+    margin: 4vh auto 0 auto;
+    width: fit-content;
+    section {
+      background-color: #fff;
+      box-shadow: 0px 3px 6px #00000029;
+      cursor: pointer;
+      font-family: $font-kor;
+      width: 305px;
+      height: 240px;
+      text-align: center;
+      transition: all 0.2s;
+      &:first-of-type {
+        margin-right: 10px;
+      }
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        p {
+          font-size: $normal-size;
+          color: $font-color;
+          line-height: 20px;
+          margin-top: 67px;
+          margin-bottom: 6px;
+          font-weight: 500;
+        }
+        h2 {
+          color: $sub-font-color;
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 24px;
+        }
+        embed {
+          margin-top: 30px;
+          position: relative;
+          transition: all 0.2s;
+        }
+      }
+      &:hover {
+        box-shadow: 0px 6px 6px #00000029;
+        embed {
+          animation: moveArrow 2s ease;
+        }
+      }
+    }
+  }
+}
+
+@keyframes moveArrow {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: -30px;
+  }
+  60% {
+    left: 40px;
+  }
+  90% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}

@@ -1,0 +1,13 @@
+@import '../../reset.scss';
+.MyPage {
+  border-top: 1px solid $border-color;
+  position: relative;
+  min-height: 100vh;
+  > div {
+    display: flex;
+    top: 32px;
+    position: relative;
+    margin-bottom: 96px;
+    left: $left;
+  }
+}

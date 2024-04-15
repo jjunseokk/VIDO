@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="116" viewBox="0 0 156 116">
+  <defs>
+    <filter id="사각형_1874" x="0" y="0" width="156" height="116" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.255"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#사각형_1874)">
+    <rect id="사각형_1874-2" data-name="사각형 1874" width="120" height="80" rx="6" transform="translate(18 18)" fill="#fff"/>
+  </g>
+</svg>

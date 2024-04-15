@@ -1,0 +1,20 @@
+@import '../../reset.scss';
+.EditorPickSinglePage {
+  min-height: calc(100vh);
+  > h1 {
+    padding-top: 57px;
+    font: $bold 22px $font-kor;
+    margin-left: $left;
+    color: #151515;
+  }
+}
+
+.EditorPickSingleDarkPage {
+  min-height: calc(100vh);
+  > h1 {
+    padding-top: 57px;
+    font: $bold 22px $font-kor;
+    margin-left: $left;
+    color: #ffffff;
+  }
+}

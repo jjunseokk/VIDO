@@ -1,0 +1,52 @@
+@import '../../reset.scss';
+
+.InputCheckbox {
+  position: relative;
+  cursor: pointer;
+  input {
+    position: absolute;
+    opacity: 0;
+    &:checked {
+      ~ svg > path {
+        stroke-dashoffset: 0;
+      }
+      + label::before {
+        background-color: #002e85;
+        border: 1px solid #002e85;
+      }
+    }
+  }
+  label {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+
+    &::before {
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border: 1px solid #9d9d9d;
+      border-radius: 4px;
+      transition: all 0.2s;
+      left: -1px;
+      top: -1px;
+      content: '';
+      display: block;
+      background-color: #fff;
+    }
+  }
+  svg {
+    position: absolute;
+    pointer-events: none;
+    top: 50%;
+    z-index: 12;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    path {
+      transition: stroke-dashoffset 1s ease-in;
+    }
+  }
+}

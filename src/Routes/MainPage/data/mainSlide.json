@@ -1,0 +1,22 @@
+[
+  {
+    "src": "img/slide/vidoMain.webp",
+    "mask": true,
+    "bottom": 140,
+    "titleImg": "img/slide/vidoMainTitle.png",
+    "color": "#ffffff",
+    "link": "https://vido.gallery/about",
+    "txt": [
+      "VIDO는 높은 퀄리티의 미디어아트 구독 서비스와 작가와 개인간의",
+      "미디어아트 트레이딩을 통해 수익을 창출 할 수 있는 종합 플랫폼입니다"
+    ]
+  },
+  {
+    "src": "img/slide/main2.webp",
+    "mask": true,
+    "bottom": 140,
+    "color": "#ffffff",
+    "link": "https://vido.gallery/signup",
+    "title": ["지금 VIDO의 아티스트가 되어", "미디어캔버스를 채워보세요!"]
+  }
+]

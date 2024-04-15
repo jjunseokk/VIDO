@@ -1,0 +1,184 @@
+.ArtistIcon1 {
+  animation: box 3s linear infinite;
+  > g {
+    position: relative;
+    animation: arrow 3s linear infinite;
+    > .cls2 {
+      transform-origin: bottom;
+      fill: #a3c0ef;
+    }
+  }
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0.5;
+    transform: translateY(30px);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+  75% {
+    opacity: 1;
+
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0.5;
+
+    transform: translateY(30px);
+  }
+}
+@keyframes box {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+.ArtistIcon2 {
+  position: relative;
+  transform-origin: center;
+  animation: speaker 2s linear infinite;
+  > g {
+    > path {
+      &:nth-of-type(1) {
+        animation: dash 2s linear infinite;
+      }
+      &:nth-of-type(2) {
+        animation: dash 2s linear infinite 0.2s;
+      }
+      &:nth-of-type(3) {
+        animation: dash 2s linear infinite 0.5s;
+      }
+    }
+  }
+}
+
+@keyframes speaker {
+  0% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 100;
+  }
+  50% {
+    stroke-dashoffset: 100;
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 100;
+  }
+}
+
+.ArtistIcon3 {
+  position: relative;
+  transform-origin: left bottom;
+  // animation: player 3s linear infinite;
+  .art {
+    // animation: art 5s linear infinite;
+    position: relative;
+  }
+  .sun {
+    // animation: sun 5s linear infinite;
+  }
+  .play {
+    animation: player 5s linear infinite;
+  }
+}
+
+@keyframes player {
+  0% {
+    // transform: rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  90% {
+    // transform: rotate(5deg);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    // transform: rotate(0deg);
+  }
+}
+@keyframes art {
+  0% {
+    fill: #1152cc;
+  }
+  25% {
+    fill: #1152cc;
+  }
+  60% {
+    fill: #3074e2;
+  }
+  90% {
+    fill: #3074e2;
+  }
+  100% {
+    fill: #1152cc;
+  }
+}
+@keyframes sun {
+  0% {
+    fill: #1152cc;
+  }
+  25% {
+    fill: #1152cc;
+  }
+  60% {
+    fill: #ffd371;
+  }
+  90% {
+    fill: #ffd371;
+  }
+  100% {
+    fill: #1152cc;
+  }
+}
+@keyframes player {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

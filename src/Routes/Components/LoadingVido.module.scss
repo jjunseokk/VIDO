@@ -1,0 +1,83 @@
+@import '../../reset.scss';
+
+.wrap {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid $border-color;
+  div.bar {
+    position: absolute;
+    height: 128px;
+    width: 24px;
+    top: -1px;
+    left: 52px;
+    animation: loadingAnimation 3s ease infinite;
+    z-index: 10;
+    &::after {
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      display: block;
+      content: '';
+      width: 4px;
+      height: 4px;
+      top: -2px;
+      border: 1px solid $highlight-color;
+      border-radius: 100%;
+      background-color: #fff;
+    }
+    &::before {
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      display: block;
+      content: '';
+      width: 4px;
+      height: 4px;
+      bottom: -2px;
+      border: 1px solid $highlight-color;
+      border-radius: 100%;
+      background-color: #fff;
+    }
+  }
+  .cover {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    top: 6px;
+    left: 6px;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+  svg {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    path {
+      fill: $border-color;
+      animation: pathColor 3s ease infinite;
+    }
+  }
+}
+@keyframes loadingAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pathColor {
+  0% {
+    fill: $highlight-color;
+  }
+  50% {
+    fill: $border-color;
+  }
+  100% {
+    fill: $highlight-color;
+  }
+}

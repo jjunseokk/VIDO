@@ -1,0 +1,158 @@
+@import '../../../reset.scss';
+.ProfileMenu {
+  height: 785px;
+  width: 290px;
+  border: 1px solid $border-color;
+  position: relative;
+  overflow: hidden;
+  .wrongImg {
+    font-size: 12px;
+    top: 150px;
+    position: absolute;
+    width: 100%;
+    color: $error-color;
+    text-align: center;
+  }
+  .ProfileImg {
+    width: 290px;
+    min-height: 216px;
+    background-color: $light-color;
+    position: relative;
+    > div {
+      &:nth-of-type(1) {
+        height: 200px;
+        > div {
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          border-radius: 50%;
+          background-color: $border-color;
+          background: url('../img/plusprofileimg.svg') $border-color no-repeat
+            center;
+          top: 30px;
+          cursor: pointer;
+          overflow: hidden;
+          input {
+            width: 120px;
+            height: 120px;
+            cursor: pointer;
+            border-radius: 50%;
+            opacity: 0;
+          }
+        }
+        > p {
+          position: relative;
+          top: 170px;
+          width: 100%;
+          font-size: 14px;
+          font-family: $font-kor;
+          font-weight: $bold;
+          text-align: center;
+          span {
+            font-weight: $regular;
+          }
+          button {
+            background-color: rgba(255, 255, 255, 0);
+            width: 12px;
+            height: 12px;
+            border: none;
+            background: url('../img/pencil.svg') rgba(255, 255, 255, 0) center
+              no-repeat;
+            position: relative;
+            top: 2px;
+            left: 4px;
+            cursor: pointer;
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        background-color: $light-color;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        min-height: 30px;
+        padding-bottom: 25px;
+        > svg {
+          cursor: pointer;
+          margin-left: 12px;
+        }
+        > input {
+          background: none;
+          border: none;
+          border-bottom: 2px solid #707070;
+          font: $regular 12px/15px $font-kor;
+          &:focus {
+            outline: none;
+          }
+        }
+        > span {
+          margin-top: 12px;
+          font: $regular 12px/15px $font-kor;
+          width: 100%;
+          text-align: center;
+        }
+        > p {
+          word-break: break-all;
+          width: 184px;
+          text-align: center;
+          font: $regular 10px/15px $font-kor;
+          color: #707070;
+          letter-spacing: -0.25;
+          > svg {
+            cursor: pointer;
+            margin-left: 12px;
+          }
+        }
+      }
+    }
+  }
+  > ul {
+    width: 100%;
+    position: relative;
+    > li {
+      font-family: $font-kor;
+      width: 100%;
+      line-height: 42px;
+      position: relative;
+      border-bottom: 1px solid $border-color;
+      a {
+        padding-left: 40px;
+        font-weight: $medium;
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        height: 100%;
+        &:hover {
+          background-color: #f2f2f2;
+        }
+      }
+      // button {
+      //   transition: all 0.2s $ease-in-sine;
+      //   right: 40px;
+      //   top: 13px;
+      //   height: 16px;
+      //   width: 16px;
+      //   cursor: pointer;
+      //   position: absolute;
+      //   background-image: url('../img/openmenu.svg');
+      //   background-repeat: no-repeat;
+      //   background-size: cover;
+      //   background-color: rgba(255, 255, 255, 0);
+      //   border: none;
+      // }
+      div {
+        overflow: hidden;
+        transition: all 0.2s $ease-in-out-sine;
+        font-weight: $regular;
+        ul {
+          li {
+            padding-left: 24px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import '../../../reset.scss';
+
+$img-width: calc($pg-width / 3 - (20px / 3));
+$img-height: calc($img-width / 2);
+
+.suggest {
+  margin-top: 60px;
+  width: $pg-width;
+  margin-left: $left;
+  h1 {
+    font-size: $title-size;
+    font-family: $font-kor;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, $img-width);
+    grid-template-rows: repeat(2, calc($img-height + 26px));
+    row-gap: 20px;
+    column-gap: 10px;
+    li {
+      cursor: pointer;
+      div {
+        width: $img-width;
+        height: $img-height;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: none;
+        transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+        img {
+          width: $img-width;
+          height: $img-height;
+          object-fit: cover;
+          transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+      }
+      p {
+        margin-top: 6px;
+        font-family: $font-kor;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1;
+      }
+      &:hover {
+        div {
+          img {
+            transform: scale(1.2);
+          }
+        }
+        p {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

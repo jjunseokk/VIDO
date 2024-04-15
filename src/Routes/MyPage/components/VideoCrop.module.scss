@@ -1,0 +1,23 @@
+@import '../../../reset.scss';
+.videoCrop {
+  width: calc(100vw - $left - $right - 342px);
+  height: calc((100vw - $left - $right - 342px) / 3 * 2);
+  position: relative;
+  ul {
+    position: absolute;
+    bottom: -54px;
+    font-size: 10px;
+    display: flex;
+    gap: 24px;
+    li {
+      color: $highlight-color;
+      font-family: $font-kor;
+      span {
+        color: $highlight-color;
+        font-family: $font-kor;
+        margin-left: 8px;
+        font-weight: $bold;
+      }
+    }
+  }
+}

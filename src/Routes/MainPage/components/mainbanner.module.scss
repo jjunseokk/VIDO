@@ -1,0 +1,193 @@
+@import '../../../reset.scss';
+
+.mainbanner {
+  position: relative;
+  z-index: -25;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background-image: url('../img/vidoBanner1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // &::after {
+  //   display: block;
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: -5%;
+  //   width: 24%;
+  //   height: 100%;
+  //   background-color: #151515;
+  //   opacity: 0;
+  //   z-index: 1;
+  //   transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
+  //   filter: blur(50px);
+  // }
+  &::before {
+    display: block;
+    opacity: 0;
+    content: '';
+    position: absolute;
+    transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
+    top: 0;
+    right: -100px;
+    width: 20%;
+    height: 100%;
+    background-color: #151515;
+    z-index: 1;
+    filter: blur(50px);
+  }
+  &::after {
+    display: block;
+    opacity: 0;
+    content: '';
+    position: absolute;
+    transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
+    top: 0;
+    left: -100px;
+    width: 20%;
+    height: 100%;
+    background-color: #151515;
+    z-index: 1;
+    filter: blur(50px);
+  }
+  &:hover {
+    &::after {
+      opacity: 0.2;
+    }
+    &::before {
+      opacity: 0.2;
+    }
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    stroke: #fff;
+    transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
+    opacity: 0.7;
+    z-index: 10;
+    &:hover {
+      opacity: 1;
+    }
+    embed {
+      width: 10px;
+      height: 20px;
+      position: relative;
+      z-index: -1;
+    }
+    &:first-child {
+      left: calc($left - 52px);
+    }
+    &:nth-child(2) {
+      right: calc($right - 52px);
+    }
+  }
+  > p {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    opacity: 0.7;
+    bottom: 20px;
+    left: $left;
+    font-family: $font-kor;
+    font-size: 10px;
+    transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
+
+    font-weight: $bold;
+  }
+  ul {
+    display: flex;
+    position: relative;
+    z-index: -50;
+    width: max-content;
+    left: 0;
+
+    li {
+      overflow: hidden;
+      width: 100vw;
+      height: 400px;
+      flex: 1;
+      position: relative;
+      z-index: -10;
+      left: 0;
+      > div {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        &.txt1 {
+          left: $left;
+
+          > img {
+            display: block;
+            width: 291px;
+            height: 115px;
+          }
+          > p {
+            color: #fff;
+            margin-top: 15px;
+            width: max-content;
+            font: $bold 20px/30px $font-kor;
+          }
+        }
+        &.txt3,
+        &.txt4 {
+          h1 {
+            font: $bold 60px/89px $font-kor;
+            margin-bottom: 12px;
+            letter-spacing: -1.2px;
+          }
+          > p {
+            font: $regular 42px/54px $font-kor;
+            letter-spacing: -2.1px;
+            > span {
+              letter-spacing: -2.1px;
+              font: $bold 42px/54px $font-kor;
+            }
+          }
+          left: $left;
+        }
+        &.txt2 {
+          left: auto;
+          top: auto;
+          right: $left;
+          bottom: -16px;
+          > h1 {
+            font: $medium 48px/71px $font-kor;
+            letter-spacing: -0.91px;
+            > span {
+              letter-spacing: -0.91px;
+              font: $bold 48px/71px $font-eng;
+              color: #0a3243;
+            }
+          }
+          p {
+            margin-top: 5px;
+            font: $regular 30px/45px $font-kor;
+            letter-spacing: -0.75px;
+          }
+        }
+      }
+      a {
+        position: absolute;
+        width: $pg-width;
+        height: 80%;
+        top: 10%;
+        z-index: 100;
+        cursor: pointer;
+        left: $left;
+      }
+      img {
+        object-fit: cover;
+        object-position: center center;
+        display: block;
+        width: 100vw;
+        height: 400px;
+      }
+    }
+  }
+}

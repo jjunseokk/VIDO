@@ -1,0 +1,59 @@
+@import '../../../reset.scss';
+
+.deleteMember {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: #15151530;
+
+  > div {
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    height: 200px;
+    width: 400px;
+    padding: 32px 60px;
+    > button {
+      position: absolute;
+      background: none;
+      background-image: url('../img/close.svg');
+      width: 12px;
+      height: 12px;
+      border: none;
+      cursor: pointer;
+      right: 4px;
+      top: 4px;
+    }
+    p {
+      font-family: $font-kor;
+      font-weight: $medium;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+    }
+    > div {
+      margin-top: 24px;
+      display: flex;
+      > button {
+        &:first-child {
+          margin-right: 4px;
+        }
+        &:last-of-type {
+          a {
+            color: #9d9d9d;
+          }
+          button {
+            color: #9d9d9d;
+            background-color: $border-color;
+          }
+        }
+      }
+    }
+  }
+}

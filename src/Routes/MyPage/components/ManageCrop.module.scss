@@ -1,0 +1,284 @@
+@import '../../../reset.scss';
+.ManageCrop {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 40;
+  > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 1280px;
+    height: 785px;
+    box-shadow: $box-shadow;
+    padding: 36px 40px;
+    > button {
+      &:nth-of-type(1) {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        > svg path {
+          stroke: #707070;
+        }
+      }
+    }
+    > div {
+      &:nth-of-type(1) {
+        display: flex;
+        justify-content: space-between;
+        > h1 {
+          font: $medium 22px/29px $font-kor;
+          color: #707070;
+          margin-bottom: 12px;
+        }
+        > div {
+          position: relative;
+          display: flex;
+          > div {
+            position: relative;
+            width: 120px;
+            height: 24px;
+            > button {
+              cursor: pointer;
+              width: 120px;
+              height: 24px;
+              border: 1px solid $border-color;
+              background-color: #fff;
+              position: absolute;
+              top: 0;
+              left: 0;
+              padding: 0 4px;
+              text-align: left;
+              font: $regular 14px $font-kor;
+              color: #151515;
+              > svg {
+                position: absolute;
+                right: 4px;
+                top: 4px;
+              }
+            }
+            > ul {
+              width: 120px;
+              box-shadow: $box-shadow;
+              background-color: #fff;
+              top: 24px;
+              position: absolute;
+              z-index: 100;
+              > li {
+                width: 120px;
+                height: 24px;
+                line-height: 24px;
+                font: $regular 14px $font-kor;
+                padding-left: 4px;
+                color: #151515;
+                cursor: pointer;
+                transition: all 0.2s;
+                &:hover {
+                  color: $highlight-color;
+                  background-color: #f8f8f8;
+                }
+              }
+            }
+          }
+          > button {
+            margin-left: 12px;
+            background-color: #fff;
+            width: 97px;
+            height: 24px;
+            border: 1px solid $border-color;
+            cursor: pointer;
+            font: $regular 14px $font-kor;
+            color: #151515;
+            transition: all 0.2s;
+            &:hover {
+              border: 1px solid $highlight-color;
+
+              color: $highlight-color;
+            }
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        height: 640px;
+
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+          width: 14px;
+        }
+        &::-webkit-scrollbar-track {
+          background: none;
+        }
+        &::-webkit-scrollbar-thumb {
+          background: #f2f2f2;
+          width: 12px;
+          margin-right: 2px;
+          border-radius: 6px;
+          border: 2px solid#fff;
+        }
+        > table {
+          width: 100%;
+          border-collapse: collapse;
+          border: none;
+          position: relative;
+          td {
+            padding: 0 12px;
+            font: $medium 14px $font-kor;
+            color: #151515;
+            &:nth-of-type(1) {
+              img {
+                width: 105px;
+                height: 70px;
+                border-radius: 4px;
+                object-fit: cover;
+              }
+            }
+            &:nth-of-type(2) {
+              text-align: left;
+            }
+            &:nth-of-type(3) {
+            }
+            &:nth-of-type(4) {
+            }
+            &:nth-of-type(5) {
+            }
+          }
+          > thead {
+            background-color: #fff;
+            width: 100%;
+            position: sticky;
+            top: -1px;
+            z-index: 20;
+            &::after {
+              position: absolute;
+              display: block;
+              top: -0px;
+              z-index: 2;
+              left: 0;
+              content: '';
+              width: 100%;
+              height: 100%;
+              border-top: 1px solid #707070;
+              border-bottom: 1px solid #707070;
+            }
+            > tr {
+              td {
+                background-color: #f8f8f8;
+                height: 42px;
+                position: relative;
+                p {
+                  line-height: 42px;
+                  font: $medium 16px $font-kor;
+                  text-align: center;
+
+                  &.click {
+                    position: relative;
+                    cursor: pointer;
+                    z-index: 10;
+                    span {
+                      position: absolute;
+                      &.rotate {
+                        > svg {
+                          transform: rotate(180deg);
+                        }
+                      }
+                      svg {
+                        transition: all 0.2s;
+                        cursor: pointer;
+                        position: absolute;
+                        margin-left: 12px;
+                        margin-top: 4px;
+                        z-index: 20;
+                      }
+                    }
+                  }
+                }
+                &:nth-of-type(2) {
+                  p {
+                    text-align: left;
+                  }
+                }
+                &:last-of-type {
+                  width: 140px;
+                  div {
+                    margin: 0 auto;
+                    z-index: 100;
+                  }
+                }
+              }
+            }
+          }
+          > tbody {
+            width: 100%;
+
+            > tr {
+              height: 115px;
+              > td {
+                height: 115px;
+                text-align: center;
+                &:last-of-type {
+                  > div {
+                    margin: 0 auto;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.deletePopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 120;
+  width: 100%;
+  > div {
+    &:nth-of-type(1) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+    }
+    &:nth-of-type(2) {
+      width: 400px;
+      padding: 24px 60px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 30;
+      background-color: #fff;
+      box-shadow: $box-shadow;
+      p {
+        margin-top: 8px;
+        margin-bottom: 12px;
+        font: $bold 14px $font-kor;
+      }
+      button {
+        &:first-of-type {
+          position: absolute;
+          top: 4px;
+          right: 4px;
+          width: 12px;
+          height: 12px;
+          border: none;
+          background: none;
+          cursor: pointer;
+        }
+        &:last-of-type {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}

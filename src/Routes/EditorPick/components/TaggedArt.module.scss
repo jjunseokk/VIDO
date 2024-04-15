@@ -1,0 +1,52 @@
+@import '../../../reset.scss';
+
+.TaggedArt {
+  margin-top: 80px;
+  h1 {
+    color: #151515;
+    font: $bold 22px/33px $font-kor;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  > div.tagWrap {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    width: calc($pg-width - 10%);
+    margin: 0 auto;
+    margin-bottom: 36px;
+
+    > div {
+      width: fit-content;
+      height: fit-content;
+      display: inline-block;
+
+      color: $font-color;
+      margin-right: 2px;
+      margin-bottom: 3px;
+      cursor: pointer;
+      background-color: #fff;
+      font-family: $font-kor;
+      border: 1px solid $border-color;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 6px 12px;
+      transition: all 0.2s;
+      &.selected {
+        background-color: #1152cc;
+        color: #fff;
+      }
+      &:hover {
+        background-color: $border-color;
+      }
+    }
+  }
+  > div.media {
+    height: calc(20vw + 132px);
+  }
+  > div:last-of-type {
+    margin-top: 32px;
+  }
+}

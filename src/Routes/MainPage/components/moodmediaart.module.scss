@@ -1,0 +1,52 @@
+@import '../../../reset.scss';
+
+$img-width: calc($pg-width / 5 - 16px);
+$img-height: calc($img-width / 2);
+
+.moodMediaArt {
+  margin-top: 60px;
+  position: relative;
+  width: $pg-width;
+  margin-left: $left;
+  h1 {
+    font-family: $font-kor;
+    font-size: $title-size;
+    letter-spacing: -0.44px;
+    margin-bottom: 20px;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(5, $img-width);
+    grid-template-rows: repeat(2, $img-height);
+    row-gap: 10px;
+    column-gap: 20px;
+    li {
+      position: relative;
+      height: $img-height;
+      width: $img-width;
+      overflow: hidden;
+      border-radius: 4px;
+      cursor: pointer;
+      width: $img-width;
+      img {
+        height: $img-height;
+        width: $img-width;
+        object-fit: cover;
+        display: block;
+        position: relative;
+        z-index: -1;
+      }
+      p {
+        z-index: 10;
+        font-family: $font-eng;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: $title-size;
+        color: $sub-font-color;
+        font-weight: 300;
+      }
+    }
+  }
+}

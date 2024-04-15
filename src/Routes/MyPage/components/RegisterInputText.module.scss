@@ -1,0 +1,28 @@
+@import '../../../reset.scss';
+.text {
+  padding-left: 4px;
+  width: 280px;
+  height: 32px;
+  border: none;
+  position: relative;
+  border-bottom: #e0e0e0 1px solid;
+  color: $font-color;
+  font-family: $font-kor;
+  font-size: $normal-size;
+  &::placeholder {
+    color: $search-color;
+    font-size: $normal-size;
+    font-family: $font-kor;
+  }
+  &:focus {
+    outline: none;
+    position: relative;
+    border: none;
+    border-bottom: #e0e0e0 1px solid;
+    height: 32px;
+    background: none;
+    font-size: $normal-size;
+    font-family: $font-kor;
+    color: $font-color;
+  }
+}

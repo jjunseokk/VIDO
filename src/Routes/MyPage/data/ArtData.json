@@ -1,0 +1,46 @@
+[
+  {
+    "artNumber": "A12341",
+    "thumbnail": "http://via.placeholder.com/70x70",
+    "artTitle": "title",
+    "artDescription": "Thisis Description",
+    "playtime": 1312412313,
+    "RecentDate": "2022.02.02",
+    "Money": 345125423,
+    "accepted": true,
+    "ask": false
+  },
+  {
+    "artNumber": "A123wew",
+    "thumbnail": "http://via.placeholder.com/70x70",
+    "artTitle": "title2",
+    "artDescription": "Thisis Description2",
+    "playtime": false,
+    "RecentDate": false,
+    "Money": false,
+    "accepted": true,
+    "ask": true
+  },
+  {
+    "artNumber": "A12312341",
+    "thumbnail": "http://via.placeholder.com/70x70",
+    "artTitle": "title3",
+    "artDescription": "Thisis Description3",
+    "playtime": 1312412313,
+    "RecentDate": "2022.02.02",
+    "Money": 345125423,
+    "accepted": true,
+    "ask": true
+  },
+  {
+    "artNumber": "A12ss341",
+    "thumbnail": "http://via.placeholder.com/70x70",
+    "artTitle": "title4",
+    "artDescription": "Thisis Description4",
+    "playtime": 1312412313,
+    "RecentDate": "2022.02.02",
+    "Money": 345125423,
+    "accepted": false,
+    "ask": true
+  }
+]
